@@ -34,7 +34,7 @@ class HerMessageBubble extends StatelessWidget {
 class _Imagebubble extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
+    final size = MediaQuery.sizeOf(context);
     print(size);
 
     return ClipRRect(
